@@ -1,0 +1,17 @@
+{
+  "name": "blackjackbyelm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "elm-live": "^4.0.0-rc.1"
+  },
+  "devDependencies": {
+    "elm-test": "^0.19.1-revision4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "paranoiaoops",
+  "license": "MIT"
+}
