@@ -10,7 +10,7 @@
     "elm-test": "^0.19.1-revision4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "elm-test"
   },
   "author": "paranoiaoops",
   "license": "MIT"
