@@ -341,4 +341,22 @@ suite =
                     Main.dealerDrawCards dummyModel
                         |> Expect.equal expectModel
             ]
+        , describe "judgment test"
+            [ test "player win" <|
+                \_ ->
+                    Main.judgment 15 13
+                        |> Expect.equal True
+            , test "player bust" <|
+                \_ ->
+                    Main.judgment 22 23
+                        |> Expect.equal False
+            , test "dealer bust" <|
+                \_ ->
+                    Main.judgment 13 22
+                        |> Expect.equal True
+            , test "dealer win" <|
+                \_ ->
+                    Main.judgment 15 17
+                        |> Expect.equal False
+            ]
         ]

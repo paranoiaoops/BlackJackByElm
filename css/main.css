@@ -1,0 +1,39 @@
+/* Chrome 対応 */
+body {
+    margin: 0;
+}
+
+/* root コンテンツ */
+#root {
+    display: grid;
+    grid-template-rows: 30px 1fr;
+    grid-row-gap: 20px;
+    grid-auto-columns: 1fr;
+}
+
+/* header */
+.header {
+    background: aqua;
+    font-size: larger;
+
+    display: inline-grid;
+    justify-content: center;
+    align-content: center;
+}
+
+/* ゲーム画面 */
+.game-screen {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    justify-content: center;
+    align-content: center;
+}
+
+.end-screen {
+    display: grid;
+    grid-template-rows: 20px 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    justify-content: center;
+    align-content: center;
+}

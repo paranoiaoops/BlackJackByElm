@@ -10,7 +10,8 @@
     "elm-test": "^0.19.1-revision4"
   },
   "scripts": {
-    "test": "elm-test"
+    "test": "elm-test",
+    "develop": "elm-live src/Main.elm --open -- --output=main.js --debug"
   },
   "author": "paranoiaoops",
   "license": "MIT"
